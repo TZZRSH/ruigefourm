@@ -15,11 +15,16 @@
     <description>瑞哥论坛：认证服务（负责处理用户登录、注册、账号注销等）</description>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.example.ruige</groupId>
+            <artifactId>org.example.ruige.common</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,9 +68,23 @@
             <artifactId>commons-pool2</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+        </dependency>
+
+
+        <!-- 阿里云短信发送 -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>dysmsapi20170525</artifactId>
+        </dependency>
     </dependencies>
-
-
 
 
     <build>

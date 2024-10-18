@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -15,12 +16,16 @@
           <entry name="$PROJECT_DIR$/../../.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="ruige-auth" />
-        <module name="ruige-common" />
+        <module name="org.example.ruige.common" />
         <module name="ruigeforum-gatway" />
         <module name="ruige-framework" />
-        <module name="ruige-spring-boot-starter-biz-operationlog" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="ruige-common" target="17" />
+      <module name="ruige-framework-common" target="17" />
+      <module name="ruige-spring-boot-starter-biz-operationlog" target="17" />
+      <module name="ruige.framework.common" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,6 +9,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ruige-framework/ruige-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/ruige-framework/ruige-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ruige-framework/ruige-spring-boot-starter-biz-operationlog/pom.xml" />
+        <option value="$PROJECT_DIR$/ruige-framework/ruige.framework.common/pom.xml" />
         <option value="$PROJECT_DIR$/xiaoha-framework/pom.xml" />
       </set>
     </option>
